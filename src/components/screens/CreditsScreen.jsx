@@ -430,6 +430,60 @@ function TheEndScreen() {
         THE END
       </motion.h1>
 
+      {/* Radha Rani Image */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.7 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
+        className="mt-5"
+      >
+        <motion.img
+          src="/gifs/CAT.jpg"
+          alt="Radha Rani"
+          className="rounded-2xl"
+          style={{
+            width: "clamp(140px, 45vw, 200px)",
+            height: "clamp(140px, 45vw, 200px)",
+            objectFit: "cover",
+            border: "2px solid rgba(220,120,180,0.5)",
+            boxShadow: "0 8px 32px rgba(151,59,136,0.3)",
+          }}
+          animate={{ scale: [1, 1.03, 1] }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+        />
+      </motion.div>
+
+      {/* Radha Rani Blessing */}
+      <motion.div
+        initial={{ opacity: 0, y: 15 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 1, duration: 0.8, ease: "easeOut" }}
+        className="mt-4 px-6 py-3 rounded-2xl"
+        style={{
+          background: "linear-gradient(135deg, rgba(255,255,255,0.45), rgba(255,200,230,0.35))",
+          border: "1px solid rgba(220,120,180,0.4)",
+          backdropFilter: "blur(10px)",
+        }}
+      >
+        <motion.p
+          animate={{ scale: [1, 1.03, 1] }}
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+          style={{
+            fontSize: "clamp(1.1rem, 5vw, 1.35rem)",
+            fontFamily: "Georgia, serif",
+            fontStyle: "italic",
+            fontWeight: 600,
+            background: "linear-gradient(135deg, #7b0060, #c026a0)",
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+            backgroundClip: "text",
+            letterSpacing: "0.06em",
+          }}
+        >
+           Radha Rani bless you 
+        </motion.p>
+      </motion.div>
+
       {/* Heart */}
       <motion.button
         initial={{ opacity: 0, scale: 0 }}
