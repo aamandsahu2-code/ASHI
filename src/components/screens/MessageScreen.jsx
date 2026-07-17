@@ -7,8 +7,10 @@ import Button from "../Button"
 
 // ✅ CORRECT - Use template literals with backticks for multi-line
 const messageText = `Happy Birthday to the best sister, Ashi! 🎂❤️
-Main jitna bhi thank you bolu, kam hai. Thank you so much for your unconditional love and for always, always being there for me. Jab bhi mujhe kisi ki sabse zyada zaroorat hoti hai, tum hamesha mere sath khadi rehti ho. Mere life me tumhari jagah koi nahi le sakta.
-Tum jaisi ho, bas hamesha waisi hi rehna—so lovely, absolutely gorgeous, and my absolute sweetheart! Bhagwan kare tumhara ye saal khushiyon se bhara ho. Once again, a very Happy Birthday, Ashi! I love you so much! ✨💖`
+
+Honestly, words aren't enough to thank you for everything. Thank you so much for your unconditional love and for always, always having my back. Whenever I need someone the most, you're always the one standing right next to me. No one could ever replace you in my life.
+
+Never change—stay just as beautiful and amazing as you are. You are so lovely, absolutely gorgeous, and my absolute sweetheart! May God bless you with a year full of joy and laughter. Once again, a very Happy Birthday! ✨💖`
 
 const words = messageText.split(" ")
 
