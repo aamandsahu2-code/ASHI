@@ -5,25 +5,11 @@ import { useEffect, useState, useMemo, useRef } from "react"
 
 // ─── DATA ─────────────────────────────────────────────────────
 const credits = [
-  { role: "The Birthday Princess 👑",       name: "ANSHIKA", highlight: true },
+  { role: "The Birthday Princess 👑",       name: "Aashi", highlight: true },
   { role: "Graphic Artist 🎨",              name: "KD" },
-  { role: "Chief Happiness Officer ✨",     name: "You" },
-  { role: "Music Curator 🎵",               name: "KD" },
-  { role: "Special Thanks 💖",              name: "To everyone who loves you" },
   { role: "Location 🌸",                    name: "Right in your heart" },
   { role: "Dedicated to 🎀",                name: "Making you smile today" },
-  { role: "Final Sparkle ✨",               name: "Happy Birthday, Anshika – keep shining forever" }
-]
-
-const POEM_LINES = [
-  "Aaj ka din hai tera, Anshika, 🎂",
-  "Har taraf khushiyan barse.",
-  "Zindagi de tujhe woh sab kuch,",
-  "Jo tera dil tarse. 💖",
-  "Muskurati rahe tu hamesha,",
-  "Yahi dua hai meri —",
-  "Happy Birthday, jaaneman, 🌸",
-  "Bahut pyaari hai tu meri. 🎀",
+  { role: "Final Sparkle ✨",               name: "Happy Birthday, Aashi – keep shining forever" }
 ]
 
 const PARTICLES = [
