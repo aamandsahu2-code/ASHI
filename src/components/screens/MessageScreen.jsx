@@ -6,9 +6,9 @@ import { ChevronRight } from "lucide-react"
 import Button from "../Button"
 
 // ✅ CORRECT - Use template literals with backticks for multi-line
-const messageText = `Happy Birthday, Princess! 👑✨
-You deserve all the happiness and smiles in the world today. You have a truly special way of making everything around you brighter just by being yourself. I hope your day is filled with laughter, surprises, and all the things that make your heart happy.
-Keep being the amazing person you are and spreading joy wherever you go. Wishing you endless success and a year as wonderful as you are! ✨`
+const messageText = `Happy Birthday to the best sister, Ashi! 🎂❤️
+Main jitna bhi thank you bolu, kam hai. Thank you so much for your unconditional love and for always, always being there for me. Jab bhi mujhe kisi ki sabse zyada zaroorat hoti hai, tum hamesha mere sath khadi rehti ho. Mere life me tumhari jagah koi nahi le sakta.
+Tum jaisi ho, bas hamesha waisi hi rehna—so lovely, absolutely gorgeous, and my absolute sweetheart! Bhagwan kare tumhara ye saal khushiyon se bhara ho. Once again, a very Happy Birthday, Ashi! I love you so much! ✨💖`
 
 const words = messageText.split(" ")
 
