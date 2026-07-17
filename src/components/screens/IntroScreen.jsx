@@ -93,7 +93,7 @@ export default function IntroScreen({ onNext }) {
         <h1
           className="shimmer-text text-xl sm:text-2xl md:text-3xl font-semibold leading-tight"
         >
-          A Princess was born today, 19 years ago!
+          A Princess was born today.
         </h1>
 
         <motion.p
