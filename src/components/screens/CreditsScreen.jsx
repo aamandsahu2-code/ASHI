@@ -430,15 +430,6 @@ function TheEndScreen() {
         THE END
       </motion.h1>
 
-      <motion.p
-        initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-        transition={{ delay: 0.4, duration: 0.6 }}
-        className="mt-2 text-xs uppercase tracking-widest"
-        style={{ color: "rgba(100,0,80,0.48)" }}
-      >
-        of this chapter... not of us 🌸
-      </motion.p>
-
       {/* Heart */}
       <motion.button
         initial={{ opacity: 0, scale: 0 }}
@@ -516,7 +507,7 @@ export default function CreditsScreen() {
 
   useEffect(() => {
     if (stage === 0) {
-      const t = setTimeout(() => setStage(2), SCROLL_DURATION * 1000)
+      const t = setTimeout(() => setStage(3), SCROLL_DURATION * 1000)
       return () => clearTimeout(t)
     }
   }, [stage])
