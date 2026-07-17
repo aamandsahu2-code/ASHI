@@ -5,7 +5,6 @@ import { AnimatePresence, motion } from "framer-motion"
 import LoaderScreen from "@/components/screens/LoaderScreen"
 import IntroScreen from "@/components/screens/IntroScreen"
 import CakeScreen from "@/components/screens/CakeScreen"
-import PhotosScreen from "@/components/screens/PhotosScreen"
 import MessageScreen from "@/components/screens/MessageScreen"
 import WishScreen from "@/components/screens/WishScreen"
 import CreditsScreen from "@/components/screens/CreditsScreen"
@@ -176,9 +175,8 @@ export default function HomePage() {
     <LoaderScreen key="loader" onDone={() => setCurrentScreen(1)} />,
     <IntroScreen key="intro" onNext={() => setCurrentScreen(2)} />,
     <CakeScreen key="cake" onNext={() => setCurrentScreen(3)} />,
-    <PhotosScreen key="photos" onNext={() => setCurrentScreen(4)} />,
-    <MessageScreen key="message" onNext={() => setCurrentScreen(5)} />,
-    <WishScreen key="wish" onNext={() => setCurrentScreen(6)} />,
+    <MessageScreen key="message" onNext={() => setCurrentScreen(4)} />,
+    <WishScreen key="wish" onNext={() => setCurrentScreen(5)} />,
     <CreditsScreen key="credits" />,
   ]
 
@@ -232,7 +230,7 @@ export default function HomePage() {
       </div>
 
       {/* Progress dots (visible after loader) */}
-      <ProgressDots current={currentScreen} total={7} />
+      <ProgressDots current={currentScreen} total={6} />
 
       {/* Watermark */}
       <motion.div
