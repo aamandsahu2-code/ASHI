@@ -58,7 +58,7 @@ export default function BackgroundMusic() {
       autoPlay
       playsInline
       muted={false}
-      src="/music/birthday-song.mp3"
+      src="/music/Blue-Yung-Kai.mp3"
     />
   )
 }
